@@ -33,46 +33,63 @@ GROUPS = {
 TEAMS = {
     # ── TIER 1 ── Contenders
     "Spain": {
+        # Injury impact: Nico Williams (major doubt, muscular), Merino (doubtful, fractured foot),
+        # Samu (OUT, knee). Yamal expected fit. Squad depth absorbs but ATK thinned.
         "elo": 2155, "def_rating": 88, "resilience": 85,
-        "sp_att": 82, "sp_def": 85, "squad_score": 92,
+        "sp_att": 79, "sp_def": 85, "squad_score": 88,  # was 92/82 before injuries
     },
     "Argentina": {
+        # Injury impact: Messi (left hamstring fatigue, doubtful for early games).
+        # Team has proven tournament resilience without him but he is irreplaceable at peak.
         "elo": 2113, "def_rating": 80, "resilience": 97,  # 2022 champion, penalty kings
-        "sp_att": 80, "sp_def": 78, "squad_score": 85,
+        "sp_att": 78, "sp_def": 78, "squad_score": 82,   # was 80/85, Messi doubt drops squad ceiling
     },
     "France": {
-        "elo": 2062, "def_rating": 82, "resilience": 88,
-        "sp_att": 85, "sp_def": 83, "squad_score": 95,
+        # Injury impact: Ekitike (OUT, Achilles — top striker), Kamara (OUT, ACL — midfield),
+        # Mendy (OUT, quadriceps — left back). Three confirmed absences at key positions.
+        "elo": 2062, "def_rating": 79, "resilience": 88,  # was 82 — Mendy loss weakens left flank
+        "sp_att": 83, "sp_def": 81, "squad_score": 88,   # was 95 — depth tested by 3 absences
     },
     "England": {
-        "elo": 2020, "def_rating": 80, "resilience": 70,  # penalty shootout history
-        "sp_att": 88, "sp_def": 82, "squad_score": 90,
+        # Injury impact: Ben White (OUT, knee — right back). Manageable loss given squad depth.
+        "elo": 2020, "def_rating": 79, "resilience": 70,  # was 80 — minor def downgrade
+        "sp_att": 88, "sp_def": 82, "squad_score": 89,   # was 90 — negligible
     },
     "Brazil": {
-        "elo": 1988, "def_rating": 78, "resilience": 75,
-        "sp_att": 78, "sp_def": 80, "squad_score": 88,
+        # Injury impact: Rodrygo (OUT, ACL+meniscus — key attacker), Militão (OUT, hamstring surgery — key CB),
+        # Neymar (doubtful for Group C opener vs Morocco June 13, right calf),
+        # Estêvão (OUT, hamstring — young attacker). Significant multi-position losses.
+        "elo": 1988, "def_rating": 73, "resilience": 73,  # was 78/75 — Militão & Neymar absences
+        "sp_att": 73, "sp_def": 77, "squad_score": 80,   # was 78/88 — depth severely tested
     },
     "Portugal": {
+        # Leão eligible (friendly suspension doesn't carry over). No significant injuries.
         "elo": 1984, "def_rating": 78, "resilience": 78,
         "sp_att": 82, "sp_def": 80, "squad_score": 82,
     },
     "Germany": {
+        # Injury impact: Gnabry (OUT, adductor — key winger), Karl (TBD, training injury).
+        # Manageable — Germany has squad depth at wide positions.
         "elo": 1975, "def_rating": 80, "resilience": 82,
-        "sp_att": 80, "sp_def": 82, "squad_score": 85,
+        "sp_att": 78, "sp_def": 82, "squad_score": 83,   # was 80/85 — Gnabry loss
     },
 
     # ── TIER 2 ── Dark horses
     "Netherlands": {
+        # Injury impact: Xavi Simons (OUT, ACL — key attacking midfielder, crucial creative outlet).
+        # Significant loss — Simons was one of their best players.
         "elo": 1945, "def_rating": 76, "resilience": 72,
-        "sp_att": 80, "sp_def": 78, "squad_score": 83,
+        "sp_att": 74, "sp_def": 77, "squad_score": 78,   # was 80/83 — Simons loss hurts attack
     },
     "Belgium": {
         "elo": 1930, "def_rating": 74, "resilience": 70,
         "sp_att": 76, "sp_def": 75, "squad_score": 78,
     },
     "Croatia": {
-        "elo": 1920, "def_rating": 78, "resilience": 88,  # 2018 finalist, 2022 3rd
-        "sp_att": 72, "sp_def": 78, "squad_score": 72,
+        # Injury impact: Modrić (minor cheek injury, doubt — possible return June 17).
+        # If Modrić misses opener, resilience and creativity drop slightly.
+        "elo": 1920, "def_rating": 78, "resilience": 86,  # was 88 — Modrić doubt
+        "sp_att": 72, "sp_def": 78, "squad_score": 71,   # was 72 — slight squad concern
     },
     "Morocco": {
         "elo": 1900, "def_rating": 85, "resilience": 82,  # 2022 semi-finalists, elite defence
